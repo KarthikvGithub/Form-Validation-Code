@@ -1,0 +1,56 @@
+/* FORM VALIDATION */
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+body{
+    
+    background-color: gray;
+    justify-content: space-around;
+    display: flex;
+}
+
+form{
+    background-color: aqua;
+    border-radius: 30px;
+    width: 200px;
+    height : 400px;
+    margin: 20px;
+    padding: 40px;
+}
+
+form:hover{
+    color: black;
+    box-shadow: 0 2px 10px ;
+}
+
+#username {
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid black ;
+}
+#username:hover{
+    color: black;
+    box-shadow: 0 0 5px ;
+}
+
+#password {
+    margin : 5px;
+    border-radius: 5px;
+    border: 1px solid black ;
+}
+#password:hover {
+    color: black;
+    box-shadow: 0 0 5px ;
+}
+
+#email {
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid black ;
+}
+#email:hover {
+    color: black;
+    box-shadow: 0 0 5px ;
+}
